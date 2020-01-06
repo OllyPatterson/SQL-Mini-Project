@@ -1,6 +1,6 @@
--- The below code is designed to create a number of reference/lookup tables associated with the original HES subset
+--The below code is designed to create a number of reference/lookup tables associated with the original HES subset
 --The original data contained surrogate keys with no readable value, so the below code assigns each attribute with its own reference table to detail the description of what each surrogate means
---the last part of the code joins these references together in one final readable version of the data 
+--The last part of the code joins these references together in one final readable version of the data 
 
 --Dimadmincat
 IF OBJECT_ID('dbo.Dimadmincat') IS NOT NULL
